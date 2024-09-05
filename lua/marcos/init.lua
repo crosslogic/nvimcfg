@@ -1,4 +1,4 @@
+require("marcos.set")
 require("marcos.remap")
 require("marcos.packer")
-require("marcos.set")
 

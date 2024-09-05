@@ -2,9 +2,9 @@ vim.g.mapleader = " "
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 
 -- Guardar
-vim.keymap.set("n", "<C-s>", ":w<cr>")
-vim.keymap.set("i", "<C-s>", "<ESC> :update<cr>i")
-vim.keymap.set("v", "<C-s>", "<C-O> :update<cr>")
+--vim.keymap.set("n", "<C-s>", ":w<cr>")
+--vim.keymap.set("i", "<C-s>", "<ESC> :update<cr>i")
+--vim.keymap.set("v", "<C-s>", "<C-O> :update<cr>")
 
 -- Usar clipboard del sistema
 vim.keymap.set("n", "<leader>y", "\"+y")
