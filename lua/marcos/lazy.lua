@@ -712,6 +712,8 @@ require("lazy").setup({
 		end,
 	},
 
+	{ "fatih/vim-go" },
+
 	{ -- Autoformat
 		"stevearc/conform.nvim",
 		event = { "BufWritePre" },
